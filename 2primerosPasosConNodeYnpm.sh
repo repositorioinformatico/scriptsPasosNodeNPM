@@ -14,3 +14,5 @@ import moment from 'moment';
 var fecha = moment('2022-11-23'); 
 console.log(fecha.format()); 
 EOF
+sed -i '2i  "type":"module",' package.json
+node main.js
