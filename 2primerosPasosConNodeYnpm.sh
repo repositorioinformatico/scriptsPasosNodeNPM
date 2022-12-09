@@ -1,8 +1,8 @@
-#mkdir node01
-#cd node01
-#npm init
-#npm install --save-dev moment -y
-#npm install --save-dev chalk -y
+mkdir node01
+cd node01
+npm init
+npm install --save-dev moment -y
+npm install --save-dev chalk -y
 cat<<EOF > main.js
 //Prueba del paquete chalk 
 import chalk from 'chalk';
